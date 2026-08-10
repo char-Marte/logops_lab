@@ -1,0 +1,6 @@
+System Log Report
+-----------------
+INFO: 3
+WARNING: 2
+ERROR: 3
+Status: Needs attention
