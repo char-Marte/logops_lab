@@ -34,14 +34,15 @@ def analyze_log(file_path):
 
     print(f"Status: {status}")
 
-    with open("report.txt", "w") as report:
-        report.write("System Log Report\n")
-        report.write("-----------------\n")
-        report.write(f"File analyzed: {file_path}\n")
-        report.write(f"INFO: {infos}\n")
-        report.write(f"WARNING: {warnings}\n")
-        report.write(f"ERROR: {errors}\n")
-        report.write(f"Status: {status}\n")
+    with open("report.md", "w") as report:
+        report.write("# System Log Report\n\n")
+        report.write(f"**File analyzed:** `{file_path}`\n\n")
+        report.write(f"## Summary\n\n")
+        report.write(f"- INFO: {infos}\n")
+        report.write(f"- WARNING: {warnings}\n")
+        report.write(f"- ERROR: {errors}\n\n")
+        report.write(f"## Status\n\n")
+        report.write(f"**{status}**\n")
 
 
 def main():

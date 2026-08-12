@@ -1,7 +1,7 @@
 System Log Report
 -----------------
-File analyzed: test.log
-INFO: 1
-WARNING: 1
-ERROR: 2
+File analyzed: app.log
+INFO: 3
+WARNING: 2
+ERROR: 3
 Status: Needs attention

@@ -97,6 +97,15 @@ Linux commands are useful for quick filtering and counting, while Python can org
 
 This is an important foundation for DevOps, monitoring, troubleshooting, automation and security analysis.
 
+## Running with a custom log file
+
+The Python analyzer can also receive a log file as an argument.
+
+Example:
+
+```bash
+python3 log_analyzer.py test.log
+```
 ## Next Improvements
 
 Future versions of this project may include:
