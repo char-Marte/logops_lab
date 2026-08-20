@@ -2,7 +2,7 @@
 
 **File analyzed:** `app.log`
 
-**Filter level:** `ALL`
+**Filter level:** `ERROR`
 
 ## Summary
 
@@ -16,11 +16,6 @@
 
 ## Filtered Events
 
-- `INFO system started`
-- `INFO user login successful`
-- `WARNING high memory usage`
 - `ERROR failed login`
-- `INFO backup completed`
 - `ERROR database timeout`
-- `WARNING disk usage high`
 - `ERROR unauthorized access attempt`
